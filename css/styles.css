@@ -12,25 +12,20 @@ body {
 }
 
 .header { 
-    align-items: center;
     border-bottom: solid 1px var(--cor-detalhes);
-    display: flex;
-    justify-content: space-around;    
-    padding: 3rem 0;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
 }
 
 .header__principal {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.header__list{
-    display: flex;
+    margin-bottom: 1em;
 }
 
 .header__list_item {
-    margin-left: 2rem;
+    padding-bottom: 0.5em;
 }
 
 .header__list_link {
@@ -45,7 +40,7 @@ body {
 }
 
 .main {
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 
 .main__titulo {
@@ -57,19 +52,25 @@ body {
 .main__texto {
     text-align: center;
     font-size: 1.2em;
-    margin: 0 10em 3em 10em;
+    margin: 0 1em 1em 1em; 
+   
 }
 
 .main__imagem_container {
     text-align: center;
+    
+
 }
 
 .main__imagem {
-    width: 50%;
+    width: 100%;
+    border: 1px solid var(--cor-detalhes);    
 }
 
 .rodape {
     border-top: 1px solid var(--cor-detalhes);
+    font-size: 0.8rem;
+    padding: 0.5em 0;
     text-align: center;
-    padding: 1em 0;
+    
 }
